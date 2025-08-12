@@ -1,10 +1,8 @@
-{
-  "data": {
-    "episode": {
-      "id": "4",
-      "name": "M. Night Shaym-Aliens!",
-      "air_date": "January 13, 2014",
-      "episode": "S01E04"
-    }
+query {
+  episode(id: 4) {
+    id
+    name
+    air_date
+    episode
   }
 }
